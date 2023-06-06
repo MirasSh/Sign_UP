@@ -1,0 +1,73 @@
+ /* body {  
+  background-image: url(1.png);
+  background-repeat: no-repeat;
+  background-size: cover;  
+}  */
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+
+}
+
+.block-flex{
+  display: flex;
+  justify-content: center;
+}
+.second-flex{
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  background-color: #CD853F	;
+}
+
+.red{
+  /* background-image: url(kartina.png); */
+  background-color: rgb(24, 24, 198);
+  width: 70%;
+  min-height: 100vh;
+}
+.lesson1{
+  margin-top: 20vh;
+}
+.lesson2{
+  margin-top: 25vh;
+  text-align: right;
+}
+.lesson3{
+  margin-top: 20vh;
+}
+
+/* Делаю баттон на сайте  */
+
+a.button19 {
+  display: inline-block;
+  font-weight: bold;
+  color: #000000;
+  text-decoration: none;
+  text-shadow: 0 -1px rgba(22, 8, 174, 0.5);
+  user-select: none;
+  padding: .7em 1.5em;
+  border: 1px solid rgb(23, 14, 191);
+  border-radius: 5px;
+  outline: none;
+  background: linear-gradient(to right, #3fcaff 0%, #a4ffb0 51%, #3fcaff 100%);
+
+  box-shadow:
+   0 6px rgb(58, 228, 231),
+   0 3px 100px rgba(0,0,0,.4),
+   inset 0 1px rgba(255, 255, 255, 0.3),
+   inset 0 0 3px rgba(38, 19, 141, 0.5);
+  transition: .2s;
+} 
+
+.button19:active {
+  background: rgb(47, 25, 120) linear-gradient(rgb(79, 237, 240) 20%, rgb(14, 4, 96));
+  box-shadow:
+   0 2px rgb(44, 35, 216),
+   0 1px 6px rgba(0,0,0,.4),
+   inset 0 1px rgba(255,255,255,.3),
+   inset 0 0 3px rgba(255,255,255,.5);
+  -webkit-transform: translate(0, 4px);
+  transform: translate(0, 4px);
+}
